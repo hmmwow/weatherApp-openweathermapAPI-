@@ -1,0 +1,200 @@
+html,body{
+	heigth: 100%;
+	min-height: 100%;
+	color:#fff;
+	background-color: #999;
+	font-family:Lucida;
+	background:linear-gradient(	#f7f7f7, #f7f7f7),url("https://images.unsplash.com/photo-1459445364195-16475050193c?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1080&amp;h=838&amp;q=80&amp;cs=tinysrgb&amp;crop=&quot;");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+		
+}
+
+
+ 
+
+.head{
+	background-color: #3b5998;
+	color: #fff;
+	position:relative;
+	z-index: 2;
+
+
+}
+
+.appName{
+	margin-bottom: -0.2%;
+	margin-left: 10%;
+	color: #fff;
+}
+
+.freeCC{
+	margin-left: 12%;
+	color: #fff;
+}
+
+
+.wrap{
+	width:600px;
+	margin: 2% auto 4% auto;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 4px 4px 8px #333;
+	position:relative;
+	z-index: 2;
+
+}
+
+
+
+#city{
+	margin-top: -47px;
+	margin-left: 38px;
+	font-size: 30px;
+	color:#3b5998;
+	margin-bottom: -0.2%;
+	
+}
+
+#state{
+	margin-left: 40px;
+	font-size: 18px;
+	color:#999;
+}
+
+#country{
+	font-size: 18px;
+	color:#999;
+}
+
+.iconloc{
+	margin-bottom:  15px;
+}
+
+.icondate{
+	padding-top:  10px;
+}
+
+#day{
+	margin-top: -31px;
+	margin-left: 38px;
+	font-size: 30px;
+	color:#3b5998;
+	margin-bottom: -0.2%;
+}
+
+.date{
+	margin-left: 40px;
+	font-size: 18px;
+	color:#999;
+}
+
+.iconTime{
+	padding-top:  10px;
+}
+
+#time{
+	margin-top: -31px;
+	margin-left: 38px;
+	font-size: 30px;
+	color:#3b5998;
+}
+
+#des{
+	color:#999;
+	font-size: 18px;
+}
+
+.temperature{
+	font-size: 60px;
+	color:#3b5998;
+}
+
+ .tempLetter{
+ 	font-size: 40px;
+ 	color: #999;
+ }
+
+
+#humidity ,#wind, #dir{
+	font-size: 20px;
+	color: #3b5998;
+
+}
+
+.humidity ,.wind{
+	color: #999;
+	font-size: 20px;
+}
+
+.row{
+	margin-bottom: 40px;
+}
+
+
+.footer{
+	margin-top: 40px;
+	background-color: #8b9dc3;
+	color: #000;
+	padding: 15px 0 10px 0;
+	z-index: 1;
+}
+
+
+#linkedin:hover{
+	background-color: #fff;
+	border: 1px solid #007bb5;
+	color:#007bb5;
+	box-shadow: 2px 2px 4px #333;
+}
+
+#linkedin{
+	transition: all ease .5s;
+	background-color: #007bb5;
+	color: #fff;
+	border :1px solid #007bb5;
+}
+
+#git:hover{
+	background-color: #fff;
+	border: 1px solid #000;
+	color:#000;
+	box-shadow: 2px 2px 4px #333;
+}
+
+#git{
+	transition: all ease .5s;
+	background-color: #000;
+	color: #fff;
+	border :1px solid #000;
+}
+
+#fcc:hover{
+	background-color: #fff;
+	border: 1px solid #006400;
+	color:#006400;
+	box-shadow: 2px 2px 4px #333;
+}
+
+#fcc{
+	transition: all ease .5s;
+	background-color: #006400;
+	color: #fff;
+	border :1px solid #006400;
+}
+
+.list-inline{
+	margin: 10px 20px 10px 20px;
+}
+
+
+@media (max-width: 767px){
+
+
+	.wrap{
+		width:98%;
+	}
+
+}

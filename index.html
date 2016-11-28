@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>weatherApp</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initital-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+	<script src="weather.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+		<!-- 1.  I can see the weather in my current location.
+			 2.  I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+			 3.  I can push a button to toggle between Fahrenheit and Celsius.-->
+
+</head>
+
+
+		<body>
+
+
+		<div class="navbar navbar-light bg-faded head">
+			<di class="row">
+				<div class="col-xs-12">
+					<h1 class="appName">WeatherApp</h1>
+					<small class="freeCC">freeCodeCamp<i class="fa fa-free-code-camp"></i></small>
+				</div>
+			</di>
+		</div>
+
+		
+			<div class="container-fluid wrap">
+				<div class="row">
+
+					<div class="col-xs-12">
+						<img class="iconloc"
+						src="https://maxcdn.icons8.com/office/PNG/80/Maps/worldwide_location-80.png" title="Worldwide Location" width="30">
+						<h1 id="city">Unknown </h1>
+						<small id="state">Unknown</small>,
+						<small id="country">Unknown</small>
+					</div><br>
+
+
+					<div class="col-xs-12">
+						<img class="icondate"
+						src="https://maxcdn.icons8.com/Color/PNG/96/Time_And_Date/calendar-96.png" title="Calendar" width="30">
+						<h1 id="day">Today</h1>
+						<span class="date"></span>
+						
+					</div><br>
+					
+					<div class="col-xs-12">
+					<img class="iconTime"
+						src="https://maxcdn.icons8.com/Color/PNG/96/Time_And_Date/alarm_clock-96.png" title="Alarm Clock" width="30">
+						<h1 id="time">--:--</h1>
+					</div>
+
+
+					<div class="col-xs-12 text-center">
+	
+						 <span class="temperature text-center"></span> <span class="tempLetter text-center"></span>
+
+					</div>
+
+					<div class="col-xs-12 icon text-center icon">
+						
+					    <span id="des"> </span>
+						<span id="icon"></span>
+						
+					</div>
+
+					
+
+					<div class="col-xs-12 text-center">
+					<i class="btn btn-primary btn-md btn-block c">
+					<img src="https://maxcdn.icons8.com/office/PNG/80/Ecommerce/temperature_sensitive-80.png" title="Temperature Sensitive" width="20">
+					 &deg Fahrenheit</i>
+					</div>
+					</div>
+					
+					<div class="row">
+					<div class="col-xs-12 text-center humidity">
+						<p>Humidity: 
+						<img src="https://maxcdn.icons8.com/office/PNG/80/Science/humidity-80.png" title="Humidity" width="30">
+						<span id="humidity">0 </span>%</p>
+					</div>
+
+					<div class="col-xs-12 text-center wind">
+						<p>Wind Speed: 
+						<img src="https://maxcdn.icons8.com/Color/PNG/96/Astrology/air_element-96.png" title="Air Element" width="30">
+						<span id="wind"> </span> mph</p>
+
+						<p>Direction:
+					    <img src="https://maxcdn.icons8.com/Color/PNG/96/Maps/compass-96.png" title="Compass" width="30">
+						<span id="dir"></span></p>
+					</div>
+
+
+				</div>
+
+
+				<div class="row">
+				<div class="col-xs-12 text-center ">
+
+					<ul class="list-inline ">
+
+					<li><a href="https://www.linkedin.com/in/renz-mallari-30384776" id="linkedin" class="btn btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+					<li><a href="https://www.freecodecamp.com/hmmwow" id="fcc" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>
+					
+					<li><a href="https://github.com/hmmwow" id="git" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github"></i></a></li>
+				  	
+					</ul>
+
+					<font color="#999"><p>&copy 2016 Coded by <a href="https://www.freecodecamp.com/hmmwow" target="_blank"><strong>Renz Jayson Mallari</strong></p></a></font>
+
+				  	
+				</div>
+			</div>
+
+			</div>
+		
+
+
+		<div class="container-fluid footer navbar navbar-fixed-bottom ">
+	
+		</div>
+
+	</body>
+</html>
